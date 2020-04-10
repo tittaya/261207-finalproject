@@ -15,6 +15,7 @@ function Welcome(){
             <ul className="App-link">
                     <li><Link to="/login">Login</Link></li>
                     <li><Link to="/register">Register</Link></li>
+                    <li><Link to="/about">About</Link></li>
             </ul>
         </div>
     );
