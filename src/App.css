@@ -120,3 +120,13 @@
   color: #0080a4;
   padding: 20px 0 0 0;
 }
+
+
+.container-about{
+  background-color: #ffdfe8;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  color: #0080a4;
+  font-size: 25px;
+}
