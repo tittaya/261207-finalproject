@@ -8,17 +8,19 @@ function Menu(){
         <form className="menu">
              <img src={Logo} className="App-logo-small" />
         
+    
 
         <div className="container-menu">
         <h3>Menu</h3>
-            <input type="username" className="form-control" placeholder="Enter username" />
+            <input type="menu" className="form-control" placeholder="menu" />
         </div>
 
 
         <div className="container-order">
-        <h3>Menu</h3>
-            <input type="username" className="form-control" placeholder="Enter username" />
+        <h4>Order</h4>
+            <input type="order" className="form-control" placeholder="Order" />
         </div>
+
 
 
 

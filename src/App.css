@@ -92,9 +92,18 @@
 
 }
 
+
+.menu{
+  background-color: #ffdfe8;
+  width: 100%;
+  text-align: center;
+  color: #0080a4;
+}
+
+
 .container-menu{
-  background-color: #ffffff;
-  
+  background-color: #f4e4f5;
+  float: left;
   width: 50%;
   min-height: 100vh;
   text-align: center;
@@ -102,20 +111,12 @@
   padding: 20px 0 0 0;
 }
 
-.menu{
-  background-color: #ffdfe8;
-  width: 100%;
-  min-height: 100vh;
-  text-align: center;
-  color: #0080a4;
-}
-
-
 .container-order{
-  background-color: #ffffff;
-  text-align: left;
-  width: 50%;
+  background-color: #d1d1d1;
+  text-align: center;
   min-height: 100vh;
+  float: right;
+  width: 50%;
   color: #0080a4;
   padding: 20px 0 0 0;
 }
