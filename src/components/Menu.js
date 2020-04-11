@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import Logo from '../img/donutlogo.png';
+import Logo2 from '../img/donutlogoB.png';
+import Logo3 from '../img/donutlogoV.png';
 import { Link } from 'react-router-dom';
 
 function Menu(){
@@ -12,14 +14,14 @@ function Menu(){
 
         <div className="split left">
         <h3>Menu</h3>
-            <h4><input type="checkbox" className="form-control" placeholder="menu" />
+            <h4><button type="button" className="button">add</button>
             <img src={Logo} className="App-logo-small" />
             <lable for="pinkgaze">Strawberry Donut</lable></h4>
-            <h4><input type="checkbox" className="form-control" placeholder="menu" />
-            <img src={Logo} className="App-logo-small" />
+            <h4><button type="button" className="button">add</button>
+            <img src={Logo2} className="App-logo-small" />
             <lable for="bluegaze">Bluebery Donut</lable></h4>
-            <h4><input type="checkbox" className="form-control" placeholder="menu" />
-            <img src={Logo} className="App-logo-small" />
+            <h4><button type="button" className="button">add</button>
+            <img src={Logo3} className="App-logo-small" />
             <lable for="creamgaze">Valina Donut</lable></h4>
         </div>
 
