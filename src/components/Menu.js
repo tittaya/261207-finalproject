@@ -10,21 +10,38 @@ function Menu(){
         
     
 
-        <div className="container-menu">
+        <div className="split left">
         <h3>Menu</h3>
-            <input type="menu" className="form-control" placeholder="menu" />
+            <h4><input type="checkbox" className="form-control" placeholder="menu" />
+            <img src={Logo} className="App-logo-small" />
+            <lable for="pinkgaze">Strawberry Donut</lable></h4>
+            <h4><input type="checkbox" className="form-control" placeholder="menu" />
+            <img src={Logo} className="App-logo-small" />
+            <lable for="bluegaze">Bluebery Donut</lable></h4>
+            <h4><input type="checkbox" className="form-control" placeholder="menu" />
+            <img src={Logo} className="App-logo-small" />
+            <lable for="creamgaze">Valina Donut</lable></h4>
         </div>
 
 
-        <div className="container-order">
+        <div className="split right">
         <h4>Order</h4>
-            <input type="order" className="form-control" placeholder="Order" />
-        </div>
+        <table className="table-order" align="center" >
+        <tr>
+         <th>Menu</th>
+         <th>Price</th>
+            </tr>
+            <tr>
+              <td>menu</td>
+              <td>price</td>
+             </tr>
+             <tr>
+          <td>menu</td>
+          <td>price</td>
+         </tr>
+            </table>
+        </div>   
 
-
-
-
-        
     </form>
     );
 }
