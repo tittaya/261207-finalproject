@@ -16,13 +16,16 @@ function Menu(){
         <h3>Menu</h3>
             <h4><button type="button" className="button">add</button>
             <img src={Logo} className="App-logo-small" />
-            <lable for="pinkgaze">Strawberry Donut</lable></h4>
+            <lable for="pinkgaze">Strawberry Donut</lable>
+            <lable for="price"> 25B</lable></h4>
             <h4><button type="button" className="button">add</button>
             <img src={Logo2} className="App-logo-small" />
-            <lable for="bluegaze">Bluebery Donut</lable></h4>
+            <lable for="bluegaze">Bluebery Donut</lable>
+            <lable for="price"> 25B</lable></h4>
             <h4><button type="button" className="button">add</button>
             <img src={Logo3} className="App-logo-small" />
-            <lable for="creamgaze">Valina Donut</lable></h4>
+            <lable for="creamgaze">Valina Donut</lable>
+            <lable for="price"> 25B</lable></h4>
         </div>
 
 
